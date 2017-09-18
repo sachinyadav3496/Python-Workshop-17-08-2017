@@ -1,6 +1,6 @@
-import json
-import os
-if os.path.exists('bank.txt'):
+import json #json module is use to save objects as it is in files
+import os #os module provides us many system related facilities such that copy,delete,path exits etc
+if os.path.exists('bank.txt'): 
 
     with open('bank.txt') as f:
         bank = json.load(f)
